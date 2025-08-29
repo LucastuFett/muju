@@ -68,7 +68,7 @@ LD_EXTENSION = elf
 GDB_FLAGS = $(TARGET_ELF) -ex "target remote-extended localhost:3333"
 
 # Debug server
-GDB_SERVER = ~/.local/xPacks/@xpack-dev-tools/openocd/0.12.0-6.1/.content/bin/openocd
+GDB_SERVER = sudo ~/.local/xPacks/@xpack-dev-tools/openocd/0.12.0-6.1/.content/bin/openocd
 
-FLASH_WRITER = ~/.local/xPacks/@xpack-dev-tools/openocd/0.12.0-6.1/.content/bin/openocd
+FLASH_WRITER = sudo ~/.local/xPacks/@xpack-dev-tools/openocd/0.12.0-6.1/.content/bin/openocd
 
